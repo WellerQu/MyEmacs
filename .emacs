@@ -30,3 +30,8 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+;; E-mail
+(setenv "MAILHOST" "imap.exmail.qq.com")
+(setq rmail-primary-inbox-list '("po:qiuwei@knowbox.cn")
+             rmail-pop-password-required t)
